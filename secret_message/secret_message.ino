@@ -1,3 +1,16 @@
+#include <YunClient.h>
+#include <BridgeUdp.h>
+#include <Console.h>
+#include <Bridge.h>
+#include <BridgeServer.h>
+#include <Mailbox.h>
+#include <BridgeSSLClient.h>
+#include <HttpClient.h>
+#include <FileIO.h>
+#include <Process.h>
+#include <BridgeClient.h>
+#include <YunServer.h>
+
 /*
   LiquidCrystal Library - Hello World
 
@@ -52,7 +65,7 @@ void setup() {
   // set up the LCD's number of columns and rows:
   lcd.begin(16, 2);
   // Print a message to the LCD.
-  lcd.print("hello, world!");
+  lcd.print("lucy's secret message");
 }
 
 void loop() {
